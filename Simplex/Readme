@@ -1,1 +1,13 @@
-Give all inequalities in less than equals form, coeffecients of objective function in maximization form.
+Give all constraints in less than equals form, coeffecients of objective function in maximization form.
+Name the constraints file "mat.csv", coefficient file as "coef.csv".
+Each constraint should be a row of "mat.csv".
+eg:   minimize 2x+3y
+st:   x+y>=4
+      x-y>=20
+      x,y>=0
+      
+coef.csv file -2,-3 as maximize -2x-3y
+mat.csv file  -1,-1,-4
+              -1,1,-20
+              Converting constraints to less than equals form
+
